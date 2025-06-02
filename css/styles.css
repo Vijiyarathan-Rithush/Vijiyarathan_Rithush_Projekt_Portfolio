@@ -16,10 +16,6 @@
   --space-4xl: 98px;
 }
 
-html {
-  zoom: 0.8;
-}
-
 .hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
   width: 100%;
   display: flex;

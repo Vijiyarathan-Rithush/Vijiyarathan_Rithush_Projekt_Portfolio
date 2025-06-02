@@ -16,6 +16,22 @@
   --space-4xl: 98px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  transform: scale(0.8);
+  transform-origin: top left;
+  width: 125%;
+  height: 125%;
+  overflow-x: hidden;
+}
+
 .hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
   width: 100%;
   display: flex;

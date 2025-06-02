@@ -24,17 +24,6 @@ html {
     transform-origin: 0 0;
 }
 
-body {
-    width: 125%;
-}
-
-@-moz-document url-prefix() {
-    body {
-        width: 125%;
-        margin: 0;
-        padding: 0;
-    }
-}
 .hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
   width: 100%;
   display: flex;

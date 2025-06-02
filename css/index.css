@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Fira Sans;
+  }
+  * {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+  }
+  [type="text"],
+  input:where(:not([type])),
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select,
+  button {
+    appearance: none;
+    background-color: transparent;
+    border-color: unset;
+    border-width: 0;
+    border-radius: unset;
+    padding: unset;
+    font-size: unset;
+    line-height: unset;
+    color: inherit;
+  }
+  input:focus-visible,
+  [multiple]:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: none;
+  }
+.headerheaderlog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px; 
+  padding: 0 2vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 900px) {
+  .headerheaderlog {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .headerlogo_one, .navigation {
+    width: 100%; 
+    text-align: center;
+  }
+  .navigation {
+    margin-top: 1rem; 
+    margin-bottom: 20px; 
+  }
+}

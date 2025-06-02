@@ -1,0 +1,185 @@
+:root {
+  --black_900: #000000;
+  --blue_gray_900_33: #33333333;
+  --gray_800: #444444;
+  --gray_900: #131313;
+  --white_a700: #ffffff;
+  --white_a700_7f: #ffffff7f;
+  --radius-xs: 20px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 20px;
+  --space-lg: 36px;
+  --space-xl: 38px;
+  --space-2xl: 58px;
+  --space-3xl: 72px;
+  --space-4xl: 98px;
+}
+.hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black_900);
+}
+.headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
+  background: var(--black_900);
+  padding: 1rem 4vw;
+  margin: 0 0 4rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.navigation, .navigation-1, .rowhauptseite {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation li, .navigation-1 li, .rowhauptseite li, .rowhauptseite-4 li, .rowhauptseite-3 li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.headerlogo_one, .headerlogo_one-1 {
+  height: 28px;
+  width: auto;
+}
+.ui.heading.size-headinglg {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.navigation-1 a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+.navigation-1 a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+.navigation-1 a:hover::after {
+  width: 100%;
+}
+.navigation-1 a.active::after {
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    gap: 3vw;
+  }
+}
+@media (max-width: 900px) {
+  .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
+    flex-direction: column;
+    padding: 1rem 2vw;
+    margin-bottom: 3rem;
+    text-align: center;
+    align-items: center;
+  }
+  .headerlogo_one, .headerlogo_one-1 {
+    margin-bottom: 1rem;
+  }
+  .navigation, .navigation-1, .rowhauptseite {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 1.5rem;
+  }
+  .wrapper, .container-xs {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  h1, h2, h3, p, .description-3, .ui.heading {
+    text-align: center;
+    width: 100%;
+  }
+  .columnview, .stackview, .rowvijiyarathan, .columnkontakt, .columnvijiyarat {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  img, video {
+    margin: 0 auto;
+    display: block;
+  }
+  .vijiyarathan {
+    margin-top: 0.5rem; 
+  }
+}
+@media (max-width: 600px) {
+  .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
+    padding: 1rem 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .navigation, .navigation-1, .rowhauptseite {
+    gap: 1rem;
+    justify-content: center;
+  }
+  .wrapper, .container-xs {
+    padding: 0 0.5rem;
+    text-align: center;
+    align-items: center;
+  }
+  .hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .columnview, .stackview, .rowvijiyarathan, .columnkontakt, .columnvijiyarat {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  h1, h2, h3, p, .description-3, .ui.heading {
+    text-align: center;
+    width: 100%;
+  }
+  img, video {
+    margin: 0 auto;
+    display: block;
+  }
+  .vijiyarathan {
+    margin-top: 0; 
+  }
+}
+.wrapper, .container-xs {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}

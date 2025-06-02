@@ -1,0 +1,201 @@
+body {
+  background-color: #000 !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.logisches {
+  font-family: Segoe UI !important;
+  padding-left: 0;
+}
+.columnarbeitsei {
+  gap: var(--space-xs);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.f-higkeiten {
+  padding-bottom: 40px;
+  gap: 134px;
+  background-color: #000 !important;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  margin-bottom: 4px;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.rowfhigkeiten {
+  padding-left: 56px;
+  padding-right: 56px;
+  display: flex;
+  justify-content: center;
+}
+.columnfhigkeite {
+  gap: 54px;
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  align-items: center;
+}
+.column_one {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description-1 {
+  font-family: Segoe UI !important;
+  width: 96%;
+  line-height: 31px;
+  margin-bottom: 125px;
+}
+.skills {
+  margin-top: -82px;
+  position: relative;
+  align-self: stretch;
+}
+.column {
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.rowlogisches {
+  margin-left: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+.columnlogisches {
+  gap: 2px;
+  align-self: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.description-2 {
+  font-family: Segoe UI !important;
+  width: 76%;
+  line-height: 31px;
+}
+.columnauffassun {
+  gap: 4px;
+  display: flex;
+  width: 42%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ichnehmeneue {
+  font-family: Segoe UI !important;
+  width: 100%;
+  line-height: 31px;
+}
+.rowarbeitseinsa {
+  margin-right: 16px;
+  display: flex;
+}
+.icharbeite {
+  font-family: Segoe UI !important;
+  width: 86%;
+  line-height: 31px;
+}
+.effizienz {
+  margin-left: 95px;
+  font-family: Segoe UI !important;
+}
+.meinfokus {
+  font-family: Segoe UI !important;
+  align-self: flex-end;
+  width: 86%;
+  line-height: 31px;
+  padding-left: 29px;
+}
+@media only screen and (max-width: 1440px) {
+  .columnfhigkeite,
+  .description-1,
+  .description-2,
+  .icharbeite {
+    width: 100%;
+  }
+  .meinfokus {
+    width: 100%;
+    padding-left: 0;
+  }
+  .rowfhigkeiten {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .f-higkeiten {
+    gap: 100px;
+  }
+  .columnfhigkeite {
+    width: 100%;
+  }
+  .columnlogisches {
+    align-self: stretch;
+  }
+  .rowlogisches,
+  .rowarbeitseinsa {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .columnauffassun {
+    width: 100%;
+  }
+  .logisches,
+  .effizienz {
+    font-size: 36px;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .f-higkeiten {
+    gap: 32px;
+    padding-bottom: 16px;
+  }
+  .columnfhigkeite {
+    gap: 18px;
+  }
+  .description-1 {
+    margin-bottom: 32px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .skills {
+    margin-top: 0;
+  }
+  .rowlogisches,
+  .rowarbeitseinsa {
+    gap: 12px;
+  }
+  .effizienz {
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+  .rowfhigkeiten {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .f-higkeiten {
+    gap: 67px;
+    padding-top: var(--space-sm);
+    padding-bottom: var(--space-sm);
+  }
+  .columnfhigkeite {
+    gap: 27px;
+  }
+  .logisches,
+  .effizienz {
+    font-size: 30px;
+  }
+}

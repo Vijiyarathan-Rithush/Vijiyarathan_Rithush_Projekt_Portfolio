@@ -1,0 +1,193 @@
+.projekt-content {
+  background: #181818;
+  border-radius: 20px;
+  padding: 40px 40px 60px 40px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.projekt-content > h1 {
+  text-align: center;
+  margin-bottom: 48px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: Fira Sans, Segoe UI, Arial, sans-serif;
+}
+.projekt-bilder-row {
+  display: flex;
+  gap: 48px;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  align-items: stretch;
+}
+.projekt-bilder-row > div {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: stretch;
+}
+.projekt-bilder-row img {
+  border-radius: 12px;
+  width: 100%;
+  background: #222;
+  display: block;
+  box-shadow: 0 2px 16px #0008;
+}
+.projekt-bilder-row > div img,
+.projekt-bilder-row > div video,
+.projekt-bilder-row > div .J-Code,
+.projekt-bilder-row > div .js-code {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.projekt-text-row {
+  display: flex;
+  gap: 48px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+.projekt-text-row > div {
+  flex: unset;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 320px;
+  max-width: 600px;
+  margin-bottom: 0;
+}
+.projekt-text-row h2,
+.projekt-text-row h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  font-family: Fira Sans, Segoe UI, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+@media (max-width: 1050px) {
+  .projekt-bilder-row,
+  .projekt-text-row {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .projekt-bilder-row > div,
+  .projekt-text-row > div {
+    max-width: 100%;
+    min-width: 0;
+    display: block;
+  }
+  .projekt-content {
+    padding: 24px 8px 32px 8px;
+  }
+  .projekt-content > h1 {
+    font-size: 2.2rem;
+  }
+  .projekt-bilder-row img,
+  .projekt-bilder-row > div img,
+  .projekt-bilder-row > div video,
+  .projekt-bilder-row > div .J-Code,
+  .projekt-bilder-row > div .js-code {
+    max-width: 420px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    object-fit: contain;
+    height: auto;
+    max-height: 300px;
+  }
+  .projekt-text-row > div {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 700px) {
+  .projekt-content {
+    padding: 12px 2px 20px 2px;
+  }
+  .projekt-content > h1 {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+  }
+  .projekt-bilder-row,
+  .projekt-text-row {
+    gap: 16px;
+  }
+  .projekt-bilder-row > div,
+  .projekt-text-row > div {
+    min-width: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+  .projekt-bilder-row img {
+    border-radius: 8px;
+    box-shadow: 0 1px 6px #0005;
+    max-width: 95vw;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    object-fit: contain;
+    height: auto;
+    max-height: 220px;
+  }
+  .projekt-bilder-row > div img,
+  .projekt-bilder-row > div video,
+  .projekt-bilder-row > div .J-Code,
+  .projekt-bilder-row > div .js-code {
+    width: 100%;
+    max-width: 95vw;
+    display: block;    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-height: 220px;
+  }
+  .projekt-text-row h2,
+  .projekt-text-row h3 {
+    font-size: 1rem;
+  }
+  .projekt-text-row > div {
+    max-width: 100vw;
+    padding: 0 2vw;
+  }
+}
+.projekt-bilder-row > div:last-child {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+.projekt-bilder-row > div:last-child img,
+.projekt-bilder-row > div:last-child video,
+.projekt-bilder-row > div:last-child .J-Code,
+.projekt-bilder-row > div:last-child .js-code {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+      .headerheaderlog-2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      }
+      .navigation-1 {
+      flex: 1;
+      }
+      .rowhauptseite-4 {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      align-items: center;
+      }
+      .rowhauptseite-4 li {
+      display: flex;
+      align-items: center;
+      }
+      img.PHPimg{
+  margin-left: 178px;
+}

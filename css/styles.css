@@ -18,6 +18,7 @@
 html
 {
   zoom: 0.8;
+  width: 125%;
 }
 
 .hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
